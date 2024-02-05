@@ -1,3 +1,73 @@
+body{
+    display: flex;
+    align-content: center;
+    text-align: center;
+
+}
+h1{
+    color:rgb(163, 192, 227);
+    position: absolute;
+    top: 40px;
+}
+.button-container{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.submit{
+    position: absolute;
+    top: 15px;
+    color: white;
+    background-color: pink;
+    height: 80px;
+    width: 50px;
+    margin: 50px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    border-right: none;
+    border-bottom: none;
+    z-index: 2;
+}
+.text-rotate{
+position: absolute;
+right: 30px;
+top: 20px;
+bottom: 10px;
+left: 18px;
+transform: rotate(45deg);
+}
+.heart{
+position: absolute;
+    color: white;
+    background-color: pink;
+    height: 80px;
+    width: 50px;
+    margin: 50px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+    border-left: none;
+    z-index: 1;
+    position: absolute;
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+.How-Dare-You{
+    color: white;
+    background-color: pink;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+}
+
 @media(max-width: 1000px){
     body{
         display: flex;
@@ -11,9 +81,9 @@
         top: 40px;
     }
     .button-container{
-        position: absolute;
-        top: 200px;
-        left: 90px;
+        
+        display: flex;
+        align-self: center;
     }
     
     .submit{
@@ -64,8 +134,7 @@
     .How-Dare-You{
         color: white;
         background-color: pink;
-        position: absolute;
-        top: 400px;
-        left: 130px;
+        display: flex;
+        align-self: center;
     }
 }
